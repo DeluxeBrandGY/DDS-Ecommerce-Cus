@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DDS Ecommerce</title>
+
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="./css/order tracking status.css">
+    <link href="./css/order tracking.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="./dashboard.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                </div>
+                <img src="./assets/icons8-circled-d-100.png" height="40" width="40px">
+                <div class="sidebar-brand-text mx-3">DDS Ecommerce</sup></div>
+
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="./dashboard.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+            <!-- Divider -->
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Menu
+            </div>
+
+            <!--Nav items-->
+            <li class="nav-item">
+                <a class="nav-link" href="./orders.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="2em" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="64" stroke-dashoffset="64"
+                                d="M4 12V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="64;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M8 12L11 15L16 10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s"
+                                    values="14;0" />
+                            </path>
+                        </g>
+                    </svg>
+                    <span>Orders</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z" />
+                    </svg>
+                    <span>Order Cart</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="./self shop.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="-3 -2 24 24">
+                        <path fill="currentColor"
+                            d="M12.338 2.395a.228.228 0 0 1 .032.027l1.18 1.171l1.6.12c.073.006.16.061.174.161l2.172 14.693l-6.148 1.33L0 17.771S1.456 6.509 1.511 6.11c.073-.524.091-.541.648-.716l1.796-.557C4.339 3.208 5.565 0 8.13 0c.335 0 .723.18 1.037.594L9.26.591c1.101 0 1.727.939 2.082 1.96l.595-.184c.08-.024.278-.056.4.028zM9.261 7.11s-.513-.297-1.55-.297c-2.692 0-4.026 1.798-4.026 3.656c0 2.208 2.203 2.268 2.203 3.611c0 .325-.23.77-.795.77c-.864 0-1.888-.88-1.888-.88l-.521 1.724s.996 1.212 2.944 1.212c1.623 0 2.827-1.222 2.827-3.12c0-2.413-2.685-2.807-2.685-3.837c0-.19.06-.938 1.254-.938a3.49 3.49 0 0 1 1.478.354zm1.455-4.366c-.243-.743-.621-1.389-1.189-1.46c.141.405.23.916.23 1.55l-.001.208zM8.823 1.41c-.626.268-1.342.98-1.723 2.454l1.983-.614v-.111c0-.766-.102-1.334-.26-1.73zM8.061.688c-1.844 0-2.879 2.42-3.315 3.905l1.567-.486C6.686 2.161 7.567 1.187 8.39.8a.58.58 0 0 0-.33-.11z" />
+                    </svg>
+                    <span>Self Shop</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="./Let Us Shop For You.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="2em" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M5.616 20q-.691 0-1.153-.462T4 18.384V5.616q0-.691.463-1.153T5.616 4h12.769q.69 0 1.153.463T20 5.616v12.769q0 .69-.462 1.153T18.384 20zm0-1h12.769q.269 0 .442-.173t.173-.442V5.615q0-.269-.173-.442T18.385 5H5.615q-.269 0-.442.173T5 5.616v12.769q0 .269.173.442t.443.173M12 16.75q1.925-1.627 2.863-3.024t.937-2.59q0-1.794-1.142-2.84T12 7.25T9.342 8.296T8.2 11.136q0 1.193.947 2.59T12 16.75m0-4.538q-.448 0-.753-.305t-.305-.753t.305-.753t.753-.305t.753.305t.305.753t-.305.753t-.753.305M5 19V5z" />
+                    </svg>
+                    <span>Let Us Shop For You</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="0.8em" viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                            d="m505.04 442.66l-99.71-99.69c-4.5-4.5-10.6-7-17-7h-16.3c27.6-35.3 44-79.69 44-127.99C416.03 93.09 322.92 0 208.02 0S0 93.09 0 207.98s93.11 207.98 208.02 207.98c48.3 0 92.71-16.4 128.01-44v16.3c0 6.4 2.5 12.5 7 17l99.71 99.69c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.59.1-33.99m-297.02-90.7c-79.54 0-144-64.34-144-143.98c0-79.53 64.35-143.98 144-143.98c79.54 0 144 64.34 144 143.98c0 79.53-64.35 143.98-144 143.98m27.11-152.54l-45.01-13.5c-5.16-1.55-8.77-6.78-8.77-12.73c0-7.27 5.3-13.19 11.8-13.19h28.11c4.56 0 8.96 1.29 12.82 3.72c3.24 2.03 7.36 1.91 10.13-.73l11.75-11.21c3.53-3.37 3.33-9.21-.57-12.14c-9.1-6.83-20.08-10.77-31.37-11.35V112c0-4.42-3.58-8-8-8h-16c-4.42 0-8 3.58-8 8v16.12c-23.63.63-42.68 20.55-42.68 45.07c0 19.97 12.99 37.81 31.58 43.39l45.01 13.5c5.16 1.55 8.77 6.78 8.77 12.73c0 7.27-5.3 13.19-11.8 13.19h-28.1c-4.56 0-8.96-1.29-12.82-3.72c-3.24-2.03-7.36-1.91-10.13.73l-11.75 11.21c-3.53 3.37-3.33 9.21.57 12.14c9.1 6.83 20.08 10.77 31.37 11.35V304c0 4.42 3.58 8 8 8h16c4.42 0 8-3.58 8-8v-16.12c23.63-.63 42.68-20.54 42.68-45.07c0-19.97-12.99-37.81-31.59-43.39" />
+                    </svg>
+                    <span>Payment History</span></a>
+            </li>
+
+            <!--Nav items-->
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!--End of side-bar-->
+
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                    <form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search..."
+                                aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-danger" type="button">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-bell fa-fw"></i>
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter">3+</span>
+                            </a>
+                            <!-- Dropdown - Alerts -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="alertsDropdown">
+                                <h6 class="dropdown-header">
+                                    Alerts Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-primary">
+                                            <i class="fas fa-file-alt text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">May 01, 2024</div>
+                                        <span class="font-weight-bold">Whatever alerts can go here.</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-success">
+                                            <i class="fas fa-donate text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">May 01, 2024</div>
+                                        Whatever alerts can go here.
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-warning">
+                                            <i class="fas fa-exclamation-triangle text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">May 01, 2024</div>
+                                        Whatever alerts can go here.
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                            </div>
+                        </li>
+
+                        <!-- Nav Item - Messages -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-envelope fa-fw"></i>
+                                <!-- Counter - Messages -->
+                                <span class="badge badge-danger badge-counter">7</span>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="messagesDropdown">
+                                <h6 class="dropdown-header">
+                                    Message Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="#" alt="...">
+                                        <div class="status-indicator bg-success"></div>
+                                    </div>
+                                    <div class="font-weight-bold">
+                                        <div class="text-truncate">Random Message</div>
+                                        <div class="small text-gray-500">Random Name</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="#" alt="...">
+                                        <div class="status-indicator"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">Random Message</div>
+                                        <div class="small text-gray-500">Random Name</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="#" alt="...">
+                                        <div class="status-indicator bg-warning"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">Random Message</div>
+                                        <div class="small text-gray-500">Random Name</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
+                                            alt="...">
+                                        <div class="status-indicator bg-success"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">Random Messge</div>
+                                        <div class="small text-gray-500">Random Name</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+                            </div>
+                        </li>
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Vishwa Autar</span>
+                                <img class="img-profile rounded-circle" src="./assets/customer avatar.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="./index.html" data-toggle="modal"
+                                    data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-center mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Track Your Order</h1>
+                    </div>
+                    <div class=".container">
+                        <p class="margbtm30">
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <!-- Area -->
+                        <div class="container">
+                            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                                <div class="well">
+                            
+                                    <div class="form-horizontal">
+                                        <div class="form-group">
+                                            <label for="inputOrderTrackingID" class="col-sm-2 control-label">Order id</label>
+                                                <div class="col-sm-4">
+                                                <input type="text" class="form-control" id="inputOrderTrackingID" value="" placeholder="# put your order id here">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-offset-2 col-sm-10">
+                                                <button type="button" id="shopGetOrderStatusID" class="btn btn-success">Get status</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <h4>Your order status:</h4>
+                        
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <span class="prefix">Date created:</span>
+                                            <span class="label label-success">05/13/2024</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="prefix">Last update:</span>
+                                            <span class="label label-success">05/13/2024</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="prefix">Comment:</span>
+                                            <span class="label label-success">....</span>
+                                        </li>
+                                        <li class="list-group-item">You can find out latest status of your order with the following link:</li>
+                                        <li class="list-group-item"><a href="#">DDS Tracking Ticket</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.container-fluid -->
+                </div>
+                <!-- End of Main Content -->
+
+                <!-- Footer -->
+                <footer class="py-3 my-4">
+                    <p class="text-center text-body-secondary">© 2024 Deluxe Brand, Inc</p>
+                  </footer>
+                <!-- End of Footer -->
+            </div>
+
+            <!-- Bootstrap core JavaScript-->
+            <script src="./vendor/jquery/jquery.min.js"></script>
+            <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Core plugin JavaScript-->
+            <script src="./vendor/jquery-easing/jquery.easing.min.js"></script>
+
+            <!-- Custom scripts for all pages-->
+            <script src="./js/sb-admin-2.min.js"></script>
+
+            <script src="./vendor/chart.js/Chart.min.js"></script>
+
+            <script src="./js/demo/chart-area-demo.js"></script>
+            <script src="js/demo/chart-pie-demo.js"></script>
+
+            <!-- Page level plugins -->
+            <script src="./vendor/chart.js/Chart.bundle.min.js"></script>
+
+
+</body>
+
+</html>
